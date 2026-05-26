@@ -46,6 +46,7 @@ const productos = [
     variantes: [
       {
         nombre: "Peón",
+        medidas: "3 cm ",
         precio: "$14.000",
         imagen: peon,
       },
