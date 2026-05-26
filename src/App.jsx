@@ -74,7 +74,11 @@ function CardProducto({ producto, enviarWhatsApp }) {
   const [color1, setColor1] = useState("");
   const [color2, setColor2] = useState("");
   const [brillos, setBrillos] = useState("Sí");
-  const [figurita, setFigurita] = useState("");
+  const [figurita1, setFigurita1] = useState("");
+  const [figurita2, setFigurita2] = useState("");
+  const [figurita3, setFigurita3] = useState("");
+
+  const [nombrePersonalizado, setNombrePersonalizado] = useState("");
 
   const variante = producto.variantes[actual];
 
@@ -112,8 +116,13 @@ ${color2}
 ✨ Brillos:
 ${brillos}
 
-🐱 Figurita:
-${figurita}
+✍️ Nombre:
+${nombrePersonalizado}
+
+🐱 Figuritas:
+- ${figurita1}
+- ${figurita2}
+- ${figurita3}
 `;
 
     const url = `https://wa.me/573207589580?text=${encodeURIComponent(mensaje)}`;
@@ -248,6 +257,25 @@ ${figurita}
   <option>Rosado</option>
   <option>Blanco</option>
 </select>
+
+{/* NOMBRE */}
+
+<p className="font-semibold text-[#5E3370] mb-2">
+  Elige el nombre ✍️
+</p>
+
+<input
+  type="text"
+  value={nombrePersonalizado}
+  onChange={(e) => setNombrePersonalizado(e.target.value)}
+  placeholder="Escribe el nombre"
+  className="w-full p-3 rounded-2xl border mb-2"
+/>
+
+<p className="text-sm text-gray-500 mb-6">
+  Recuerda: el nombre completo es solo para lapiceros.
+  Para llaveros de ajedrez se recomienda máximo 3 letras.
+</p>
              {/* BRILLOS */}
 
 <p className="font-semibold text-[#5E3370] mb-2">
@@ -272,6 +300,8 @@ ${figurita}
 {/* FIGURA 1 */}
 
 <select
+  value={figurita1}
+  onChange={(e) => setFigurita1(e.target.value)}
   className="w-full p-3 rounded-2xl border mb-3"
 >
   <option value="">Figurita 1</option>
@@ -287,6 +317,8 @@ ${figurita}
 {/* FIGURA 2 */}
 
 <select
+  value={figurita2}
+  onChange={(e) => setFigurita2(e.target.value)}
   className="w-full p-3 rounded-2xl border mb-3"
 >
   <option value="">Figurita 2</option>
@@ -302,6 +334,8 @@ ${figurita}
 {/* FIGURA 3 */}
 
 <select
+  value={figurita3}
+  onChange={(e) => setFigurita3(e.target.value)}
   className="w-full p-3 rounded-2xl border mb-6"
 >
   <option value="">Figurita 3</option>
@@ -362,9 +396,9 @@ ${producto.nombre}
 ${producto.precio}
 
 Quiero información sobre:
-- colores disponibles
-- personalización
-- métodos de pago
+- Tiempo de envíos 
+- Personalización
+- Métodos de pago
 `;
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
