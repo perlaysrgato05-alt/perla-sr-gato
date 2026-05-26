@@ -24,18 +24,39 @@ const productos = [
         nombre: "Lapicero Prisma",
         precio: "$30.000",
         imagen: lapicero1,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
       },
 
       {
         nombre: "Lapicero Ovalado",
-        precio: "$28.000",
+        precio: "$30.000",
         imagen: lapicero2,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
       },
 
       {
         nombre: "Lapicero Cónico",
         precio: "$32.000",
         imagen: lapicero3,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
       },
     ],
   },
@@ -46,21 +67,41 @@ const productos = [
     variantes: [
       {
         nombre: "Peón",
-        medidas: "3 cm ",
         precio: "$14.000",
         imagen: peon,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
       },
 
       {
         nombre: "Caballo",
         precio: "$16.000",
         imagen: caballo,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
       },
 
       {
         nombre: "Reina",
         precio: "$22.000",
         imagen: reina,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
       },
     ],
   },
@@ -175,6 +216,28 @@ ${nombrePersonalizado}
           <p className="text-[#8E44AD] text-xl mt-2 font-semibold">
             {variante.precio}
           </p>
+
+          <p className="text-gray-600 mt-4 leading-relaxed">
+            {variante.descripcion}
+          </p>
+
+          <div className="mt-4 space-y-2 text-sm">
+
+          <p>
+             <span className="font-semibold text-[#5E3370]">
+                   Medidas:
+             </span>{" "}
+                {variante.medidas}
+          </p>
+
+          <p>
+             <span className="font-semibold text-[#5E3370]">
+                  Peso:
+             </span>{" "}
+               {variante.peso}
+          </p>
+
+         </div>
 
           {/* BOTÓN COMPRAR */}
 
