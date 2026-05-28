@@ -11,9 +11,14 @@ import lapicero1 from "./assets/lapicero1.jpeg";
 import lapicero2 from "./assets/lapicero2.jpeg";
 import lapicero3 from "./assets/lapicero3.jpeg";
 
-import peon from "./assets/peon.jpeg";
-import caballo from "./assets/caballo.jpeg";
+import rey from "./assets/rey.jpeg";
 import reina from "./assets/reina.jpeg";
+import alfil from "./assets/alfil.jpeg";
+import caballo from "./assets/caballo.jpeg";
+import torre from "./assets/torre.jpeg";
+import peon from "./assets/peon.jpeg";
+
+import nodisponible from "./assets/nodisponible.png";
 
 const productos = [
   {
@@ -66,25 +71,12 @@ const productos = [
 
     variantes: [
       {
-        nombre: "Peón",
-        precio: "$14.000",
-        imagen: peon,
+        nombre: "Rey",
+        precio: "$22.000",
+        imagen: rey,
 
         descripcion:
-         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
-
-        medidas: "15 cm x 1.5 cm",
-
-        peso: "35 g",
-      },
-
-      {
-        nombre: "Caballo",
-        precio: "$16.000",
-        imagen: caballo,
-
-        descripcion:
-         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+         "La pieza más importante, con presencia y autoridad. Lleva contigo el poder del juego.",
 
         medidas: "15 cm x 1.5 cm",
 
@@ -97,7 +89,56 @@ const productos = [
         imagen: reina,
 
         descripcion:
-         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+         "La pieza con más movimiento y estrategia. Elegancia y fuerza en un solo diseño.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
+
+      {
+        nombre: "Alfil",
+        precio: "$16.000",
+        imagen: alfil,
+
+        descripcion:
+         "Se mueve en diagonal y nunca pierde el rumbo. Un detalle inteligente y único.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Caballo",
+        precio: "$16.000",
+        imagen: caballo,
+
+        descripcion:
+         "El que salta obstáculos y cambia el juego. Dinámico, fuerte y con carácter.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Torre",
+        precio: "$16.000",
+        imagen: torre,
+
+        descripcion:
+         "Firmeza y protección en cada movimiento. Sólido, resistente y lleno de estilo.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Peón",
+        precio: "$14.000",
+        imagen: peon,
+
+        descripcion:
+         "El que empieza la batalla y nunca se rinde. Humilde, pero fundamental en el tablero.",
 
         medidas: "15 cm x 1.5 cm",
 
@@ -105,6 +146,130 @@ const productos = [
       },
     ],
   },
+  {
+    categoria: "Llaveros Dinosaurios",
+
+    variantes: [
+      {
+        nombre: "T-rex",
+        precio: "$14.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "El rey de los dinosaurios, con fuerza y carácter. Un llavero imponente para los amantes de la prehistoria.",
+
+        medidas: "4.5 cm L x 2 cm A",
+
+        peso: "35 g",
+      },
+
+      {
+        nombre: "Anky",
+        precio: "$14.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "El dinosaurio blindado, resistente y único. Un diseño fuerte y con mucho estilo para tus llaves.",
+
+        medidas: "5 cm L x 2 cm A",
+
+        peso: "35 g",
+      },
+
+      {
+        nombre: "Ptero",
+        precio: "$14.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "El dueño de los cielos, con alas y mucha energía. Un llavero ligero y lleno de aventura.",
+
+        medidas: "5 cm L x 3 cm A",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Trice",
+        precio: "$14.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "El dinosaurio con tres cuernos, valiente y muy llamativo. Un detalle genial para tus pertenencias.",
+
+        medidas: "5 cm L x 2.5 cm A",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Brachio",
+        precio: "$14.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "El gigante de cuello largo, elegante y suave. Un llavero con un diseño original y muy bonito.",
+
+        medidas: "3.5 cm L x 3.5 cm A",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Stego",
+        precio: "$14.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "El de las placas en la espalda, divertido y con mucha personalidad. Un toque prehistórico para ti.",
+
+        medidas: "5 cm L x 3 cm A",
+
+        peso: "35 g",
+      },
+    ],
+  },
+  {
+    categoria: "Hoja joya",
+
+    variantes: [
+      {
+        nombre: "Verde turquesa",
+        precio: "$35.000",
+        imagen: nodisponible,
+
+        descripcion:
+        "✨ Hoja joya Verde turquesa ✨Hecha totalmente en resina epóxica de alta calidad, con un acabado brillante y duradero. ¿Para qué sirve? Es perfecta para organizar tus joyas, anillos, collares y aretes, o para tener a la mano tus objetos pequeños como llaves, monedas o accesorios. También queda preciosa como un detalle decorativo en tu mesa, tocador o sala. Un diseño único, hecho a mano, que combina belleza y funcionalidad. ¡Dale un toque especial a tu espacio!",
+
+        medidas: "24 cm L x 8.5 cm A",
+
+        peso: "74 g",
+      },
+
+      {
+        nombre: "Mar y Fuego",
+        precio: "$35.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "Hecha en resina epóxica con acabado brillante. Ideal para organizar joyas, llaves o accesorios. Diseño único con detalles dorados y colores vibrantes. ¡Útil y decorativa! ✨",
+
+        medidas: "24 cm L x 8.5 cm A",
+
+        peso: "83 g",
+      },
+
+      {
+        nombre: "Aurora",
+        precio: "$35.000",
+        imagen: nodisponible,
+
+        descripcion:
+         "Diseño único con efecto brillante y colores que cambian. Ideal para guardar tus joyas y accesorios más especiales. ¡Una pieza mágica y llena de estilo!",
+
+        medidas: "24 cm L x 8.5 cm A",
+
+        peso: "70 g",
+      },
+    ],
+  },  
 ];
 
 function CardProducto({ producto, enviarWhatsApp }) {
@@ -370,12 +535,12 @@ ${nombrePersonalizado}
 >
   <option value="">Figurita 1</option>
 
-  <option>Gato</option>
-  <option>Mariposa</option>
+  <option>Sol dorado</option>
+  <option>Avión</option>
   <option>Corazón</option>
-  <option>Flor</option>
-  <option>Estrella</option>
-  <option>Avioncito</option>
+  <option>Tortuga dorada</option>
+  <option>Tortuga plateada</option>
+  <option>Auto</option>
 </select>
 
 {/* FIGURA 2 */}
@@ -496,7 +661,7 @@ Quiero información sobre:
       <section className="px-6 pb-20">
 
         <h2 className="text-3xl font-bold text-center text-[#5E3370] mb-12">
-          Productos Destacados
+          Nuestros Productos
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
