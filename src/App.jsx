@@ -21,6 +21,9 @@ import caballo from "./assets/caballo.jpeg";
 import torre from "./assets/torre.jpeg";
 import peon from "./assets/peon.jpeg";
 
+import maryfuego from "./assets/maryfuego.jpeg";
+import aurora from "./assets/aurora.jpeg";
+
 import proximamente from "./assets/proximamente.png";
 
 const productos = [
