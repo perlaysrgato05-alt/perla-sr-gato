@@ -39,9 +39,9 @@ const productos = [
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "14.5 cm",
 
-        peso: "35 g",
+        peso: "16 g",
       },
       {
         nombre: "Lapicero Prisma",
@@ -51,9 +51,9 @@ const productos = [
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "14.5 cm",
 
-        peso: "35 g",
+        peso: "16 g",
       },
 
       {
@@ -64,9 +64,9 @@ const productos = [
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "15 cm",
 
-        peso: "35 g",
+        peso: "24 g",
       },
       {
         nombre: "Lapicero Ovalado",
@@ -76,9 +76,9 @@ const productos = [
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "15 cm",
 
-        peso: "35 g",
+        peso: "24 g",
       },
       {
         nombre: "Lapicero Ovalado",
@@ -88,9 +88,9 @@ const productos = [
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "15 cm",
 
-        peso: "35 g",
+        peso: "24 g",
       },
 
       {
@@ -101,9 +101,9 @@ const productos = [
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "14.5 cm",
 
-        peso: "35 g",
+        peso: "11 g",
       },
     ],
   },
@@ -120,9 +120,9 @@ const productos = [
         descripcion:
          "La pieza más importante, con presencia y autoridad. Lleva contigo el poder del juego.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "6.5 cm",
 
-        peso: "35 g",
+        peso: "15 g",
       },
 
       {
@@ -133,9 +133,9 @@ const productos = [
         descripcion:
          "La pieza con más movimiento y estrategia. Elegancia y fuerza en un solo diseño.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "5.8 cm",
 
-        peso: "35 g",
+        peso: "13 g",
       },
 
       {
@@ -146,9 +146,9 @@ const productos = [
         descripcion:
          "Se mueve en diagonal y nunca pierde el rumbo. Un detalle inteligente y único.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "4.5 cm",
 
-        peso: "35 g",
+        peso: "10 g",
       },
       {
         nombre: "Caballo",
@@ -158,9 +158,9 @@ const productos = [
         descripcion:
          "El que salta obstáculos y cambia el juego. Dinámico, fuerte y con carácter.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "4.3 cm",
 
-        peso: "35 g",
+        peso: "12 g",
       },
       {
         nombre: "Torre",
@@ -170,9 +170,9 @@ const productos = [
         descripcion:
          "Firmeza y protección en cada movimiento. Sólido, resistente y lleno de estilo.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "3.6 cm",
 
-        peso: "35 g",
+        peso: "10 g",
       },
       {
         nombre: "Peón",
@@ -182,9 +182,9 @@ const productos = [
         descripcion:
          "El que empieza la batalla y nunca se rinde. Humilde, pero fundamental en el tablero.",
 
-        medidas: "15 cm x 1.5 cm",
+        medidas: "3.2 cm",
 
-        peso: "35 g",
+        peso: "7 g",
       },
     ],
   },
@@ -202,7 +202,7 @@ const productos = [
 
         medidas: "4.5 cm L x 2 cm A",
 
-        peso: "35 g",
+        peso: "- g",
       },
 
       {
@@ -215,7 +215,7 @@ const productos = [
 
         medidas: "5 cm L x 2 cm A",
 
-        peso: "35 g",
+        peso: "- g",
       },
 
       {
@@ -228,7 +228,7 @@ const productos = [
 
         medidas: "5 cm L x 3 cm A",
 
-        peso: "35 g",
+        peso: "- g",
       },
       {
         nombre: "Trice",
@@ -240,7 +240,7 @@ const productos = [
 
         medidas: "5 cm L x 2.5 cm A",
 
-        peso: "35 g",
+        peso: "- g",
       },
       {
         nombre: "Brachio",
@@ -252,7 +252,7 @@ const productos = [
 
         medidas: "3.5 cm L x 3.5 cm A",
 
-        peso: "35 g",
+        peso: "- g",
       },
       {
         nombre: "Stego",
@@ -264,7 +264,7 @@ const productos = [
 
         medidas: "5 cm L x 3 cm A",
 
-        peso: "35 g",
+        peso: "- g",
       },
     ],
   },
@@ -282,7 +282,7 @@ const productos = [
 
         medidas: "24 cm L x 8.5 cm A",
 
-        peso: "74 g",
+        peso: "- g",
       },
 
       {
