@@ -10,6 +10,9 @@ import { useState } from "react";
 import lapicero1 from "./assets/lapicero1.jpeg";
 import lapicero2 from "./assets/lapicero2.jpeg";
 import lapicero3 from "./assets/lapicero3.jpeg";
+import lapicero4 from "./assets/lapicero3.jpeg";
+import lapicero5 from "./assets/lapicero3.jpeg";
+import lapicero6 from "./assets/lapicero3.jpeg";
 
 import rey from "./assets/rey.jpeg";
 import reina from "./assets/reina.jpeg";
@@ -37,11 +40,47 @@ const productos = [
 
         peso: "35 g",
       },
+      {
+        nombre: "Lapicero Prisma",
+        precio: "$30.000",
+        imagen: lapicero5,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
 
       {
         nombre: "Lapicero Ovalado",
         precio: "$30.000",
         imagen: lapicero2,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Lapicero Ovalado",
+        precio: "$30.000",
+        imagen: lapicero4,
+
+        descripcion:
+         "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
+
+        medidas: "15 cm x 1.5 cm",
+
+        peso: "35 g",
+      },
+      {
+        nombre: "Lapicero Ovalado",
+        precio: "$30.000",
+        imagen: lapicero6,
 
         descripcion:
          "Lapicero artesanal elaborado en resina epóxica con decoración personalizada y acabados brillantes.",
@@ -153,7 +192,7 @@ const productos = [
       {
         nombre: "T-rex",
         precio: "$14.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
          "El rey de los dinosaurios, con fuerza y carácter. Un llavero imponente para los amantes de la prehistoria.",
@@ -166,7 +205,7 @@ const productos = [
       {
         nombre: "Anky",
         precio: "$14.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
          "El dinosaurio blindado, resistente y único. Un diseño fuerte y con mucho estilo para tus llaves.",
@@ -179,7 +218,7 @@ const productos = [
       {
         nombre: "Ptero",
         precio: "$14.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
          "El dueño de los cielos, con alas y mucha energía. Un llavero ligero y lleno de aventura.",
@@ -191,7 +230,7 @@ const productos = [
       {
         nombre: "Trice",
         precio: "$14.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
          "El dinosaurio con tres cuernos, valiente y muy llamativo. Un detalle genial para tus pertenencias.",
@@ -203,7 +242,7 @@ const productos = [
       {
         nombre: "Brachio",
         precio: "$14.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
          "El gigante de cuello largo, elegante y suave. Un llavero con un diseño original y muy bonito.",
@@ -215,7 +254,7 @@ const productos = [
       {
         nombre: "Stego",
         precio: "$14.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
          "El de las placas en la espalda, divertido y con mucha personalidad. Un toque prehistórico para ti.",
@@ -231,9 +270,9 @@ const productos = [
 
     variantes: [
       {
-        nombre: "Verde turquesa",
+        nombre: "Rosa",
         precio: "$35.000",
-        imagen: nodisponible,
+        imagen: proximamente,
 
         descripcion:
         "✨ Hoja joya Verde turquesa ✨Hecha totalmente en resina epóxica de alta calidad, con un acabado brillante y duradero. ¿Para qué sirve? Es perfecta para organizar tus joyas, anillos, collares y aretes, o para tener a la mano tus objetos pequeños como llaves, monedas o accesorios. También queda preciosa como un detalle decorativo en tu mesa, tocador o sala. Un diseño único, hecho a mano, que combina belleza y funcionalidad. ¡Dale un toque especial a tu espacio!",
@@ -246,7 +285,7 @@ const productos = [
       {
         nombre: "Mar y Fuego",
         precio: "$35.000",
-        imagen: nodisponible,
+        imagen: maryfuego,
 
         descripcion:
          "Hecha en resina epóxica con acabado brillante. Ideal para organizar joyas, llaves o accesorios. Diseño único con detalles dorados y colores vibrantes. ¡Útil y decorativa! ✨",
@@ -259,7 +298,7 @@ const productos = [
       {
         nombre: "Aurora",
         precio: "$35.000",
-        imagen: nodisponible,
+        imagen: aurora,
 
         descripcion:
          "Diseño único con efecto brillante y colores que cambian. Ideal para guardar tus joyas y accesorios más especiales. ¡Una pieza mágica y llena de estilo!",
