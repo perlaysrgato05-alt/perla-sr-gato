@@ -10,9 +10,9 @@ import { useState } from "react";
 import lapicero1 from "./assets/lapicero1.jpeg";
 import lapicero2 from "./assets/lapicero2.jpeg";
 import lapicero3 from "./assets/lapicero3.jpeg";
-import lapicero4 from "./assets/lapicero3.jpeg";
-import lapicero5 from "./assets/lapicero3.jpeg";
-import lapicero6 from "./assets/lapicero3.jpeg";
+import lapicero4 from "./assets/lapicero4.jpeg";
+import lapicero5 from "./assets/lapicero5.jpeg";
+import lapicero6 from "./assets/lapicero6.jpeg";
 
 import rey from "./assets/rey.jpeg";
 import reina from "./assets/reina.jpeg";
@@ -21,7 +21,7 @@ import caballo from "./assets/caballo.jpeg";
 import torre from "./assets/torre.jpeg";
 import peon from "./assets/peon.jpeg";
 
-import nodisponible from "./assets/nodisponible.png";
+import proximamente from "./assets/proximamente.png";
 
 const productos = [
   {
@@ -275,7 +275,7 @@ const productos = [
         imagen: proximamente,
 
         descripcion:
-        "✨ Hoja joya Verde turquesa ✨Hecha totalmente en resina epóxica de alta calidad, con un acabado brillante y duradero. ¿Para qué sirve? Es perfecta para organizar tus joyas, anillos, collares y aretes, o para tener a la mano tus objetos pequeños como llaves, monedas o accesorios. También queda preciosa como un detalle decorativo en tu mesa, tocador o sala. Un diseño único, hecho a mano, que combina belleza y funcionalidad. ¡Dale un toque especial a tu espacio!",
+        "✨ Hoja joya rosa ✨Hecha totalmente en resina epóxica de alta calidad, con un acabado brillante y duradero. ¿Para qué sirve? Es perfecta para organizar tus joyas, anillos, collares y aretes, o para tener a la mano tus objetos pequeños como llaves, monedas o accesorios. También queda preciosa como un detalle decorativo en tu mesa, tocador o sala. Un diseño único, hecho a mano, que combina belleza y funcionalidad. ¡Dale un toque especial a tu espacio!",
 
         medidas: "24 cm L x 8.5 cm A",
 
